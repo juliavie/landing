@@ -1,0 +1,98 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/*components directories*/
+@import url("components/button.css");
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  display: block;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+p {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-banner {
+  background-image: url("https://images.unsplash.com/photo-1558241665-89718b74c89c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+  padding: 200px 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.hero-banner .container {
+  color: white;
+  padding: 0px 100px;
+  display: block;
+}
+
+.hero-banner h1 {
+  margin-bottom: 5px;
+}
+
+
+.three-options {
+  border: 1px solid rgba(230, 230, 230, 0.9);
+  width: 200px;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0px 0px 7px 1px rgb(230, 230, 230)
+}
+
+.how-it-works-pictures {
+  height: 100px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly
+}
+
+.socials a {
+  color: #6AD58B;
+  font-size: 30px;
+
+}
+
+.socials {
+  padding: 0;
+}
+
+.socials i {
+  width: 1.25em;
+}
+
+.footer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  color: white;
+}
+
+
+/* Custom design below! */
+

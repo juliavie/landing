@@ -1,0 +1,46 @@
+/* Your button CSS file */
+
+.btn-medium {
+  text-decoration: none;
+  color: #999999;
+  border: 1px solid #999999;
+  padding: 8px 20px;
+  border-radius: 50px;
+  opacity: 0.6;
+  font-weight: lighter;
+}
+
+.btn-medium:hover {
+  opacity: 1.0;
+}
+
+.btn-treehouse {
+  background-color: #6AD58B;
+  color: white;
+  border-radius: 50px;
+  padding: 8px 25px;
+}
+
+.btn-julia {
+  text-decoration: none;
+  color: #E23F8B;
+  border: 1px solid #E23F8B;
+  padding: 8px 30px;
+  border-radius: 50px;
+  opacity: 0.5;
+  font-weight: lighter;
+}
+
+.btn-julia:hover {
+  opacity: 1.0;
+  background-color: #E23F8B;
+  color: white;
+  transition: 180ms;
+}
+
+.btn-treehouse:hover {
+  background-color: #063F29;
+  transition: 180ms;
+  border: 1px solid white;
+}
+
